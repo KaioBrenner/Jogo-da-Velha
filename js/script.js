@@ -47,6 +47,12 @@ function finish(){
 
 function winner(){
 
+    if(!shield){
+        alert("O jogador do escudo venceu");
+    }else{
+        alert("O jogador das espadas venceu");
+    }
+
 }
 
 function toMarkS1(){
@@ -68,29 +74,29 @@ function toMarkS1(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -119,29 +125,29 @@ function toMarkS2(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -169,29 +175,29 @@ function toMarkS3(){
     }
     
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -220,29 +226,29 @@ function toMarkS4(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -271,29 +277,29 @@ function toMarkS5(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -322,29 +328,29 @@ function toMarkS6(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -372,29 +378,29 @@ function toMarkS7(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -423,29 +429,29 @@ function toMarkS8(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
@@ -473,29 +479,29 @@ function toMarkS9(){
     }
 
     if(s1.value == s2.value && s2.value == s3.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s4.value == s5.value && s5.value == s6.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s7.value == s8.value && s8.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s4.value && s4.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s2.value == s5.value && s5.value == s8.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s6.value && s6.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s1.value == s5.value && s5.value == s9.value){
-        alert("ganhou")
         won = true;
+        winner();
     }else if(s3.value == s5.value && s5.value == s7.value){
-        alert("ganhou")
         won = true;
+        winner();
     }
     
 
