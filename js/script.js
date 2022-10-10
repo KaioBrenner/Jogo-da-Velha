@@ -46,10 +46,12 @@ function finish(){
 }
 
 function winner(){
-    
+
 }
 
 function toMarkS1(){
+
+    if(!won){
 
     if(s1unmarked){
 
@@ -96,9 +98,12 @@ function toMarkS1(){
 
     finish();
 }
+}
 
 function toMarkS2(){
     
+    if(!won){
+
     if(s2unmarked){
 
         if(shield){
@@ -144,7 +149,10 @@ function toMarkS2(){
 
     finish();
 }
+}
 function toMarkS3(){
+
+    if(!won){
     
     if(s3unmarked){
 
@@ -192,7 +200,10 @@ function toMarkS3(){
 
     finish();
 }
+}
 function toMarkS4(){
+
+    if(!won){
 
     if(s4unmarked){
 
@@ -240,7 +251,10 @@ function toMarkS4(){
     
     finish();
 }
+}
 function toMarkS5(){
+
+    if(!won){
 
     if(s5unmarked){
 
@@ -288,7 +302,10 @@ function toMarkS5(){
 
     finish();
 }
+}
 function toMarkS6(){
+
+    if(!won){
     
     if(s6unmarked){
 
@@ -335,7 +352,10 @@ function toMarkS6(){
 
     finish();
 }
+}
 function toMarkS7(){
+
+    if(!won){
     
     if(s7unmarked){
 
@@ -383,7 +403,10 @@ function toMarkS7(){
 
     finish();
 }
+}
 function toMarkS8(){
+
+    if(!won){
     
     if(s8unmarked){
 
@@ -430,7 +453,10 @@ function toMarkS8(){
 
     finish();
 }
+}
 function toMarkS9(){
+
+    if(!won){
     
     if(s9unmarked){
 
@@ -476,5 +502,6 @@ function toMarkS9(){
     s9unmarked = false;
 
     finish();
+}
 }
 
